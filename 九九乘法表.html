@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			table{
+				margin: 0 auto;
+			}
+			td{
+				border: 1px solid;
+			}
+		</style>
+	</head>
+	<body>
+	</body>
+	<script>
+		var a;
+		a="<table >"
+		for(var i=1;i<10;i++){
+			a+="<tr>"
+			for(var j=1;j<=i;j++){
+				a+="<td>"+i+"*"+j+"="+i*j+"</td>"
+			}
+			a+="</tr><br/>"
+		}
+		a+="</table>"
+		document.write(a)
+	</script>
+</html>
